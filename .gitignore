@@ -1,16 +1,33 @@
-# Compiled class file
+
+# General files
+*~
+.DS_Store
+.vscode
+.classpath
+.project
+.settings/
+
+# MS Word docs
+*.docx
+*.doc
+*.odt
+
+# Maven
+target/
+.mvn/
+pom.xml.tag
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+
+# Standard Java
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
 *.ctxt
-
-# Mobile Tools for Java (J2ME)
 .mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.nar
@@ -18,7 +35,5 @@
 *.zip
 *.tar.gz
 *.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
